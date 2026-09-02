@@ -52,15 +52,7 @@ The first-boot software selector can be used to install optional applications su
 
 This approach keeps the installation image smaller while allowing BergOS to provide a much broader software selection after installation.
 
-Discover more on the APPLICATION.md file.
-
-## Audio and Networking
-
-PipeWire provides the system audio and multimedia infrastructure.
-
-NetworkManager handles wired and wireless networking, VPN connections, and other network configuration requirements.
-
-BergOS also provides both xdg-desktop-portal and xdg-desktop-portal-kde for proper integration between sandboxed applications and the KDE Plasma desktop.
+Discover more in the APPLICATION.md file.
 
 ## Design Philosophy
 
