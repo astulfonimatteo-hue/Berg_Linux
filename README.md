@@ -231,12 +231,6 @@ The architecture, software selection system, default packages, installation proc
 
 BergOS should be considered a development project until an official stable release is published.
 
-## License
-
-The licensing model of BergOS and its individual components will be documented as the project develops.
-
-BergOS is built upon software from multiple upstream projects, each of which remains subject to its respective license.
-
 ## Contributing
 
 Contributions, testing, bug reports, documentation improvements, and technical feedback are welcome.
