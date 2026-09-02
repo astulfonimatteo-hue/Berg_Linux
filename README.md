@@ -99,3 +99,5 @@ BergOS is currently under development.
 The architecture, software selection system, default packages, installation process, and system configuration may change as development progresses.
 
 BergOS should be considered a development project until an official stable release is published.
+
+Release date and updates will be published on my Discord server: https://discord.gg/mTVVcZVsx
