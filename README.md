@@ -20,41 +20,24 @@ The system is built around the Linux LTS kernel, systemd, dracut, PipeWire, Netw
 The base installation is intentionally kept lightweight. Applications that are not required for the core desktop experience are not included directly in the ISO.
 
 ## Core stack
-Base: EndeavourOS / Arch Linux
-
-Kernel: Linux LTS
-
-Kernel Headers: linux-lts-headers
-
-Desktop Environment: KDE Plasma 6
-
-Display Server: Wayland
-
-X11: Available as a fallback session
-
-Display Manager: SDDM
-
-Init System: systemd
-
-Initramfs: dracut
-
-Audio: PipeWire
-
-Network Management: NetworkManager
-
-Filesystem: Btrfs
-
-Snapshot Management: Snapper and Timeshift
-
-Native Package Manager: pacman
-
-AUR Helper: yay
-
-Universal Package Management: Flatpak
-
-Flatpak Repository: Flathub
-
-Desktop Portals: xdg-desktop-portal and xdg-desktop-portal-kde
+- Base: EndeavourOS / Arch Linux
+- Kernel: Linux LTS
+- Kernel Headers: linux-lts-headers
+- Desktop Environment: KDE Plasma 6
+- Display Server: Wayland
+- X11: Available as a fallback session
+- Display Manager: SDDM
+- Init System: systemd
+- Initramfs: dracut
+- Audio: PipeWire
+- Network Management: NetworkManager
+- Filesystem: Btrfs
+- Snapshot Management: Snapper and Timeshift
+- Native Package Manager: pacman
+- AUR Helper: yay
+- Universal Package Management: Flatpak
+- Flatpak Repository: Flathub
+- Desktop Portals: xdg-desktop-portal and xdg-desktop-portal-kde
 
 ## First Boot Experience
 BergOS uses a modular approach to software installation.
@@ -74,48 +57,44 @@ This approach keeps the installation image smaller while allowing BergOS to prov
 The following applications are available through the BergOS Software Selection system and are not included directly in the base ISO.
 
 ### Desktop Applications
-Firefox
-Dolphin
-Konsole
-Ghostty
-Kate
-Ark
-Spectacle
-Discover
-flatpak-kcm
-Discord
-Development
-Visual Studio Code
-Git
-Python
-base-devel
-Docker
-Distrobox
-Gaming
-Steam
-Proton
-GameMode
-MangoHud
-Cybersecurity
+- Firefox
+- Dolphin
+- Konsole
+- Ghostty
+- Kate
+- Ark
+- Spectacle
+- Discover
+- flatpak-kcm
+- Discord
+- Development
+- Visual Studio Code
+- base-devel
+- Docker
+- Distrobox
+- Steam
+- Proton
+- GameMode
+- MangoHud
 
 BergOS provides an optional cybersecurity toolkit for users interested in security research, penetration testing, network analysis, and defensive security.
 
 ### Available tools include:
 
-Nmap
-Wireshark
-Burp Suite
-Metasploit Framework
-John the Ripper
-Hydra
-Aircrack-ng
-Netcat
-Socat
-Gobuster
-Hashcat
-SQLMap
-Nikto
-Exploit-DB
+- Nmap
+- Wireshark
+- Burp Suite
+- Metasploit Framework
+- John the Ripper
+- Hydra
+- Aircrack-ng
+- Netcat
+- Socat
+- Gobuster
+- Hashcat
+- SQLMap
+- Nikto
+- Exploit-DB
 
 These tools are optional and are installed only when explicitly selected by the user.
 
@@ -127,14 +106,14 @@ The BergOS Software Selection interface is designed around categories rather tha
 
 A typical first-boot installation could provide categories such as:
 
-Desktop Applications
-Development
-Gaming
-Virtualization and Containers
-Cybersecurity
-Networking
-System Administration
-Multimedia
+- Desktop Applications
+- Development
+- Gaming
+- Virtualization and Containers
+- Cybersecurity
+- Networking
+- System Administration
+- Multimedia
 
 Users can select one or more categories and review the applications associated with each category before starting the installation.
 
@@ -214,13 +193,13 @@ The base ISO should contain only what is necessary to provide a functional opera
 
 This provides several advantages:
 
-Smaller installation media
-Faster installation
-Less unnecessary software
-User-controlled system configuration
-Easier maintenance
-Clear separation between core components and optional software
-Ability to provide specialized software profiles without maintaining separate ISO images
+- Smaller installation media
+- Faster installation
+- Less unnecessary software
+- User-controlled system configuration
+- Easier maintenance
+- Clear separation between core components and optional software
+- Ability to provide specialized software profiles without maintaining separate ISO images
 
 The goal is to provide a system that starts minimal, but can become highly specialized depending on the user's requirements.
 
@@ -230,17 +209,17 @@ BergOS aims to provide a flexible Arch-based workstation suitable for a wide ran
 
 The project focuses on:
 
-A modern KDE Plasma 6 desktop
-A stable Linux LTS kernel
-Wayland-first desktop architecture
-Btrfs-based snapshot and recovery capabilities
-Native Arch and AUR package management
-Flatpak and Flathub integration
-Modular first-boot software installation
-Optional development tooling
-Optional gaming support
-Optional cybersecurity tooling
-Container support through Docker and Distrobox
+- A modern KDE Plasma 6 desktop
+- A stable Linux LTS kernel
+- Wayland-first desktop architecture
+- Btrfs-based snapshot and recovery capabilities
+- Native Arch and AUR package management
+- Flatpak and Flathub integration
+- Modular first-boot software installation
+- Optional development tooling
+- Optional gaming support
+- Optional cybersecurity tooling
+- Container support through Docker and Distrobox
 
 Rather than maintaining different editions for different use cases, BergOS uses a single base system with optional software profiles.
 
