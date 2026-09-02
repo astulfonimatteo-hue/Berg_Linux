@@ -1,5 +1,7 @@
 # Berg_Linux
-BergOS
+
+<img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
+
 
 BergOS is an Arch Linux-based operating system built on top of the EndeavourOS ecosystem, designed to provide a modern, reliable, and highly customizable desktop environment out of the box.
 
@@ -17,7 +19,7 @@ The system is built around the Linux LTS kernel, systemd, dracut, PipeWire, Netw
 
 The base installation is intentionally kept lightweight. Applications that are not required for the core desktop experience are not included directly in the ISO.
 
-Core Stack
+Core stack
 Base: EndeavourOS / Arch Linux
 Kernel: Linux LTS
 Kernel Headers: linux-lts-headers
@@ -135,7 +137,7 @@ Flatpak is supported with Flathub enabled, providing access to applications dist
 
 Depending on the selected application, the BergOS Software Selection system can install software from the appropriate source.
 
-Development Environment
+Development Enviroment
 
 Development tools are provided as optional components rather than being included in the base ISO.
 
