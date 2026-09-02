@@ -6,4 +6,4 @@ This operating system is a personal project created with the goal of contributin
 
 If you find the project useful, the best way to support it is simply by using it, sharing it, reporting issues, contributing code, or helping other members of the community.
 
-Thank you for your interest and support! 
+Thank you for your interest and for your support! 
