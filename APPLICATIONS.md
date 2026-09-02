@@ -122,3 +122,12 @@ Wayland is the default display protocol, while an X11 session remains available 
 SDDM is used as the display manager.
 
 The desktop stack is designed to provide a modern graphical environment while retaining compatibility with applications and hardware that may still require X11.
+
+## Audio and Networking
+
+PipeWire provides the system audio and multimedia infrastructure.
+
+NetworkManager handles wired and wireless networking, VPN connections, and other network configuration requirements.
+
+BergOS also provides both xdg-desktop-portal and xdg-desktop-portal-kde for proper integration between sandboxed applications and the KDE Plasma desktop.
+
