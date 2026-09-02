@@ -9,7 +9,7 @@ BergOS combines KDE Plasma 6, a Linux LTS kernel, Btrfs-based system recovery, m
 
 Unlike distributions that ship every application directly inside the installation image, BergOS keeps the base ISO focused on the operating system itself. Additional applications and specialized toolsets can be selected and installed during the first boot through the BergOS software selection interface.
 
-##System Overview
+## System Overview
 
 BergOS is based on EndeavourOS and Arch Linux and uses KDE Plasma 6 as its primary desktop environment.
 
@@ -19,7 +19,7 @@ The system is built around the Linux LTS kernel, systemd, dracut, PipeWire, Netw
 
 The base installation is intentionally kept lightweight. Applications that are not required for the core desktop experience are not included directly in the ISO.
 
-##Core stack
+## Core stack
 Base: EndeavourOS / Arch Linux
 Kernel: Linux LTS
 Kernel Headers: linux-lts-headers
@@ -52,11 +52,11 @@ The first-boot software selector can be used to install optional applications su
 
 This approach keeps the installation image smaller while allowing BergOS to provide a much broader software selection after installation.
 
-##Optional Software
+## Optional Software
 
 The following applications are available through the BergOS Software Selection system and are not included directly in the base ISO.
 
-##Desktop Applications
+## Desktop Applications
 Firefox
 Dolphin
 Konsole
@@ -83,7 +83,7 @@ Cybersecurity
 
 BergOS provides an optional cybersecurity toolkit for users interested in security research, penetration testing, network analysis, and defensive security.
 
-###Available tools include:
+## Available tools include:
 
 Nmap
 Wireshark
@@ -104,7 +104,7 @@ These tools are optional and are installed only when explicitly selected by the 
 
 They are intended for authorized security testing, education, research, and defensive security purposes. Users are responsible for obtaining appropriate authorization before testing systems, networks, applications, or devices.
 
-##Software Selection
+## Software Selection
 
 The BergOS Software Selection interface is designed around categories rather than individual packages.
 
@@ -137,7 +137,7 @@ Flatpak is supported with Flathub enabled, providing access to applications dist
 
 Depending on the selected application, the BergOS Software Selection system can install software from the appropriate source.
 
-##Development Enviroment
+## Development Enviroment
 
 Development tools are provided as optional components rather than being included in the base ISO.
 
@@ -145,7 +145,7 @@ Users can select a development environment during the first boot and install too
 
 This allows users who intend to use BergOS primarily for development to configure a dedicated development environment without requiring every installation to include the same software.
 
-##Gaming Environment
+## Gaming Environment
 
 Gaming support is also optional.
 
@@ -153,7 +153,7 @@ Users can select the gaming profile during the first boot to install Steam, Prot
 
 Keeping these components outside the base ISO avoids including large or specialized packages for users who do not intend to use the system for gaming.
 
-##Cybersecurity Environment
+## Cybersecurity Environment
 
 Cybersecurity tooling is provided as an optional software profile.
 
@@ -163,7 +163,7 @@ The toolkit includes utilities for network reconnaissance, packet analysis, web 
 
 This modular approach prevents specialized security software from being installed on systems where it is not required.
 
-##Filesystem and Recovery
+## Filesystem and Recovery
 
 BergOS uses Btrfs as its primary filesystem.
 
@@ -171,7 +171,7 @@ Snapper and Timeshift are available for snapshot management and system recovery.
 
 The snapshot-based architecture is intended to provide an additional layer of protection when performing system upgrades, installing large software collections, or making significant configuration changes.
 
-##Desktop Environment
+## Desktop Environment
 
 BergOS uses KDE Plasma 6 as its primary desktop environment.
 
@@ -181,7 +181,7 @@ SDDM is used as the display manager.
 
 The desktop stack is designed to provide a modern graphical environment while retaining compatibility with applications and hardware that may still require X11.
 
-##Audio and Networking
+## Audio and Networking
 
 PipeWire provides the system audio and multimedia infrastructure.
 
@@ -189,7 +189,7 @@ NetworkManager handles wired and wireless networking, VPN connections, and other
 
 BergOS also provides both xdg-desktop-portal and xdg-desktop-portal-kde for proper integration between sandboxed applications and the KDE Plasma desktop.
 
-##Design Philosophy
+## Design Philosophy
 
 BergOS follows a modular design philosophy.
 
@@ -207,7 +207,7 @@ Ability to provide specialized software profiles without maintaining separate IS
 
 The goal is to provide a system that starts minimal, but can become highly specialized depending on the user's requirements.
 
-##Project Goals
+## Project Goals
 
 BergOS aims to provide a flexible Arch-based workstation suitable for a wide range of users.
 
@@ -227,7 +227,7 @@ Container support through Docker and Distrobox
 
 Rather than maintaining different editions for different use cases, BergOS uses a single base system with optional software profiles.
 
-##Project Status
+## Project Status
 
 BergOS is currently under development.
 
@@ -235,13 +235,13 @@ The architecture, software selection system, default packages, installation proc
 
 BergOS should be considered a development project until an official stable release is published.
 
-##License
+## License
 
 The licensing model of BergOS and its individual components will be documented as the project develops.
 
 BergOS is built upon software from multiple upstream projects, each of which remains subject to its respective license.
 
-##Contributing
+## Contributing
 
 Contributions, testing, bug reports, documentation improvements, and technical feedback are welcome.
 
