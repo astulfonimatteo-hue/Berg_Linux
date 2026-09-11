@@ -1,133 +1,140 @@
-## Optional Software
+# BergOS Software Selection
 
-The following applications are available through the BergOS Software Selection system and are not included directly in the base ISO.
+BergOS uses a modular software installation system that allows users to install optional software categories during the first boot.
 
-### Desktop Applications
-- Firefox
-- Dolphin
-- Konsole
-- Ghostty
-- Kate
-- Ark
-- Spectacle
-- Discover
-- flatpak-kcm
-- Discord
-- Development
-- Visual Studio Code
-- base-devel
-- Docker
-- Distrobox
-- Steam
-- Proton
-- GameMode
-- MangoHud
+The base ISO remains lightweight and focused on the core operating system, while additional applications and specialized toolsets can be installed as needed.
 
-BergOS provides an optional cybersecurity toolkit for users interested in security research, penetration testing, network analysis, and defensive security.
+---
 
-### Available tools include:
+## Available Software Categories
 
-- Nmap
-- Wireshark
-- Burp Suite
-- Metasploit Framework
-- John the Ripper
-- Hydra
-- Aircrack-ng
-- Netcat
-- Socat
-- Gobuster
-- Hashcat
-- SQLMap
-- Nikto
-- Exploit-DB
+### 1. Desktop Applications
+Essential desktop tools for everyday use.
 
-These tools are optional and are installed only when explicitly selected by the user.
+Includes:
+- Firefox  
+- Dolphin  
+- Konsole  
+- Ghostty  
+- Kate  
+- Ark  
+- Spectacle  
+- Discover  
+- flatpak-kcm  
+- Discord  
 
-They are intended for authorized security testing, education, research, and defensive security purposes. Users are responsible for obtaining appropriate authorization before testing systems, networks, applications, or devices.
+---
 
-### Software Selection
+### 2. Development Tools
+A complete development environment for programmers and software engineers.
 
-The BergOS Software Selection interface is designed around categories rather than individual packages.
+Includes:
+- Visual Studio Code  
+- Git  
+- Python  
+- base-devel  
+- Docker  
+- Distrobox  
 
-A typical first-boot installation could provide categories such as:
+---
 
-- Desktop Applications
-- Development
-- Gaming
-- Virtualization and Containers
-- Cybersecurity
-- Networking
-- System Administration
-- Multimedia
+### 3. Gaming
+Optional gaming support for BergOS.
 
-Users can select one or more categories and review the applications associated with each category before starting the installation.
+Includes:
+- Steam  
+- Proton  
+- GameMode  
+- MangoHud  
 
-The installer then resolves and installs the required packages using the appropriate package source.
+---
 
-This allows the BergOS ISO to remain focused on the core operating system while still providing access to a broad software ecosystem.
+### 4. Cybersecurity Toolkit
+A collection of tools for authorized security research, penetration testing, and defensive security.
 
-### Package Management
+Includes:
+- Nmap  
+- Wireshark  
+- Burp Suite  
+- Metasploit Framework  
+- John the Ripper  
+- Hydra  
+- Aircrack-ng  
+- Netcat  
+- Socat  
+- Gobuster  
+- Hashcat  
+- SQLMap  
+- Nikto  
+- Exploit-DB  
 
-BergOS supports multiple package management ecosystems.
+These tools are installed only when explicitly selected by the user.
 
-The primary package manager is pacman, providing access to the official Arch Linux repositories.
+---
 
-yay is available for packages distributed through the Arch User Repository.
+### 5. Virtualization & Containers
+Tools for running virtual machines and containerized environments.
 
-Flatpak is supported with Flathub enabled, providing access to applications distributed independently from the native package repositories.
+Includes:
+- Docker  
+- Distrobox  
+- QEMU  
+- VirtualBox (optional)  
 
-Depending on the selected application, the BergOS Software Selection system can install software from the appropriate source.
+---
 
-### Development Enviroment
+### 6. Networking Tools
+Utilities for network diagnostics, configuration, and monitoring.
 
-Development tools are provided as optional components rather than being included in the base ISO.
+Includes:
+- nmtui  
+- nm-connection-editor  
+- traceroute  
+- iperf3  
+- OpenVPN  
+- WireGuard  
 
-Users can select a development environment during the first boot and install tools such as Visual Studio Code, Git, Python, base-devel, Docker, and Distrobox.
+---
 
-This allows users who intend to use BergOS primarily for development to configure a dedicated development environment without requiring every installation to include the same software.
+### 7. System Administration
+Tools for managing and maintaining the system.
 
-### Gaming Environment
+Includes:
+- htop  
+- btop  
+- Timeshift  
+- Snapper  
+- Flatpak utilities  
+- KDE system tools  
 
-Gaming support is also optional.
+---
 
-Users can select the gaming profile during the first boot to install Steam, Proton, GameMode, and MangoHud.
+### 8. Multimedia Tools
+Applications for audio, video, and media production.
 
-Keeping these components outside the base ISO avoids including large or specialized packages for users who do not intend to use the system for gaming.
+Includes:
+- VLC  
+- OBS Studio  
+- Audacity  
+- Kdenlive  
 
-### Cybersecurity Environment
+---
 
-Cybersecurity tooling is provided as an optional software profile.
+## Installation Sources
 
-Users can choose to install individual tools or an entire security-oriented toolkit through the first-boot software selector.
+Depending on the selected application, BergOS installs software from:
 
-The toolkit includes utilities for network reconnaissance, packet analysis, web application security testing, password auditing, wireless security, exploitation research, and vulnerability assessment.
+- **APT** (native Debian packages)  
+- **Flatpak** (with Flathub enabled)  
 
-This modular approach prevents specialized security software from being installed on systems where it is not required.
+This ensures compatibility and flexibility across different software ecosystems.
 
-### Filesystem and Recovery
+---
 
-BergOS uses Btrfs as its primary filesystem.
+## Notes
 
-Snapper and Timeshift are available for snapshot management and system recovery.
-
-The snapshot-based architecture is intended to provide an additional layer of protection when performing system upgrades, installing large software collections, or making significant configuration changes.
-
-### Desktop Environment
-
-BergOS uses KDE Plasma 6 as its primary desktop environment.
-
-Wayland is the default display protocol, while an X11 session remains available for compatibility.
-
-SDDM is used as the display manager.
-
-The desktop stack is designed to provide a modern graphical environment while retaining compatibility with applications and hardware that may still require X11.
-
-## Audio and Networking
-
-PipeWire provides the system audio and multimedia infrastructure.
-
-NetworkManager handles wired and wireless networking, VPN connections, and other network configuration requirements.
-
-BergOS also provides both xdg-desktop-portal and xdg-desktop-portal-kde for proper integration between sandboxed applications and the KDE Plasma desktop.
+- All software categories are optional.  
+- No optional applications are included directly in the ISO.  
+- Users can install multiple categories during the first boot.  
+- Categories may expand as development continues.
 
