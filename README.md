@@ -1,103 +1,116 @@
-# Berg_Linux
+# BergOS
 
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
+BergOS is a modern, lightweight, Debian‑based operating system designed to provide a clean, reliable, and customizable KDE Plasma 6 desktop out of the box.  
+It focuses on stability, simplicity, modularity, and a streamlined installation experience powered by the Calamares graphical installer.
 
-BergOS is an Arch Linux-based operating system built on top of the EndeavourOS ecosystem, designed to provide a modern, reliable, and highly customizable desktop environment out of the box.
+The base ISO is intentionally minimal: it includes the core Debian system, KDE Plasma 6, essential system components, and the installer.  
+All additional software is installed after the first boot through the BergOS Software Selection interface.
 
-BergOS combines KDE Plasma 6, a Linux LTS kernel, Btrfs-based system recovery, multiple software distribution methods, and an optional software selection system that allows users to configure their installation according to their needs.
-
-Unlike distributions that ship every application directly inside the installation image, BergOS keeps the base ISO focused on the operating system itself. Additional applications and specialized toolsets can be selected and installed during the first boot through the BergOS software selection interface.
+---
 
 ## System Overview
 
-BergOS is based on EndeavourOS and Arch Linux and uses KDE Plasma 6 as its primary desktop environment.
+BergOS is built on top of **Debian Bookworm**, using **KDE Plasma 6** as its primary desktop environment.  
+The default graphical session runs on **Wayland**, with **X11** available as a fallback for compatibility.
 
-The default graphical session uses Wayland, with X11 available as a fallback for compatibility.
+The system is optimized for performance and responsiveness, even on modest hardware.
 
-The system is built around the Linux LTS kernel, systemd, dracut, PipeWire, NetworkManager, and Btrfs. Snapper and Timeshift provide additional snapshot and recovery capabilities.
+---
 
-The base installation is intentionally kept lightweight. Applications that are not required for the core desktop experience are not included directly in the ISO.
+## Core Stack
 
-## Core stack
-- Base: EndeavourOS / Arch Linux
-- Kernel: Linux LTS
-- Kernel Headers: linux-lts-headers
-- Desktop Environment: KDE Plasma 6
-- Display Server: Wayland
-- X11: Available as a fallback session
-- Display Manager: SDDM
-- Init System: systemd
-- Initramfs: dracut
-- Audio: PipeWire
-- Network Management: NetworkManager
-- Filesystem: Btrfs
-- Snapshot Management: Snapper and Timeshift
-- Native Package Manager: pacman
-- AUR Helper: yay
-- Universal Package Management: Flatpak
-- Flatpak Repository: Flathub
-- Desktop Portals: xdg-desktop-portal and xdg-desktop-portal-kde
+- **Base:** Debian Bookworm  
+- **Kernel:** Linux LTS (Debian default)  
+- **Desktop Environment:** KDE Plasma 6  
+- **Display Server:** Wayland (default)  
+- **Fallback:** X11 session  
+- **Display Manager:** SDDM  
+- **Init System:** systemd  
+- **Initramfs:** dracut  
+- **Audio:** PipeWire  
+- **Networking:** NetworkManager  
+- **Filesystem:** Btrfs  
+- **Snapshot Management:** Snapper + Timeshift  
+- **Package Manager:** APT  
+- **Universal Packages:** Flatpak  
+- **Flatpak Repository:** Flathub  
+- **Desktop Portals:** xdg-desktop-portal + xdg-desktop-portal-kde  
+
+---
 
 ## First Boot Experience
-BergOS uses a modular approach to software installation.
 
-The installation ISO contains the core operating system, desktop environment, essential system utilities, and components required for the system to operate correctly.
+BergOS uses a **modular software installation model**.
 
-Additional applications are presented to the user during the first boot through the BergOS Software Selection interface.
+The installation ISO contains only the core operating system, KDE Plasma 6, essential utilities, and the Calamares installer.
 
-Instead of forcing every user to install the same collection of applications, BergOS allows users to select the software categories they actually need.
+During the first boot, users are presented with the **BergOS Software Selection** interface, which allows them to install optional software categories such as:
 
-The first-boot software selector can be used to install optional applications such as development tools, gaming software, communication applications, and cybersecurity utilities.
+- Desktop Applications  
+- Development Tools  
+- Gaming Support  
+- Cybersecurity Utilities  
+- Virtualization and Containers  
+- Multimedia Tools  
+- Networking Utilities  
+- System Administration Tools  
 
-This approach keeps the installation image smaller while allowing BergOS to provide a much broader software selection after installation.
+This approach keeps the ISO small while allowing BergOS to become a powerful workstation depending on user needs.
 
-Discover more in the APPLICATION.md file.
+For details on available software categories, see **APPLICATIONS.md**.
+
+---
 
 ## Design Philosophy
 
-BergOS follows a modular design philosophy.
+BergOS follows a **minimal-core, modular-expansion** philosophy.
 
-The base ISO should contain only what is necessary to provide a functional operating system and desktop environment. Everything else should be optional.
+The base ISO includes only what is necessary to provide:
 
-This provides several advantages:
+- a functional operating system  
+- a modern desktop environment  
+- a clean installation experience  
 
-- Smaller installation media
-- Faster installation
-- Less unnecessary software
-- User-controlled system configuration
-- Easier maintenance
-- Clear separation between core components and optional software
-- Ability to provide specialized software profiles without maintaining separate ISO images
+Everything else is optional.
 
-The goal is to provide a system that starts minimal, but can become highly specialized depending on the user's requirements.
+### Benefits
+
+- Smaller installation media  
+- Faster installation  
+- Less unnecessary software  
+- User-controlled system configuration  
+- Easier maintenance  
+- Clear separation between core OS and optional software  
+- Ability to provide specialized profiles without separate ISO images  
+
+---
 
 ## Project Goals
 
-BergOS aims to provide a flexible Arch-based workstation suitable for a wide range of users.
+BergOS aims to provide a flexible Debian-based workstation suitable for a wide range of users.
 
 The project focuses on:
 
-- A modern KDE Plasma 6 desktop
-- A stable Linux LTS kernel
-- Wayland-first desktop architecture
-- Btrfs-based snapshot and recovery capabilities
-- Native Arch and AUR package management
-- Flatpak and Flathub integration
-- Modular first-boot software installation
-- Optional development tooling
-- Optional gaming support
-- Optional cybersecurity tooling
-- Container support through Docker and Distrobox
+- A modern KDE Plasma 6 desktop  
+- A stable Linux LTS kernel  
+- Wayland-first desktop architecture  
+- Btrfs-based snapshot and recovery capabilities  
+- Flatpak and Flathub integration  
+- Modular first-boot software installation  
+- Optional development tooling  
+- Optional gaming support  
+- Optional cybersecurity tooling  
+- Optional container support  
 
-Rather than maintaining different editions for different use cases, BergOS uses a single base system with optional software profiles.
+---
 
 ## Project Status
 
-BergOS is currently under development.
+BergOS is currently under active development.  
+The architecture, installer, software selection system, and default configuration may evolve as development continues.
 
-The architecture, software selection system, default packages, installation process, and system configuration may change as development progresses.
+Release updates will be published on the official Discord server:  
+**https://discord.gg/mTVVcZVsx**
 
-BergOS should be considered a development project until an official stable release is published.
-
-Release date and updates will be published on my Discord server: https://discord.gg/mTVVcZVsx
