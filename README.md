@@ -2,106 +2,116 @@
 
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
-BergOS is a modern, lightweight, Debian‑based operating system designed to provide a clean, reliable, and customizable XFCE desktop out of the box.  
-It focuses on stability, simplicity, modularity, and a streamlined installation experience powered by the Calamares graphical installer.
 
-The base ISO is intentionally minimal: it includes the core Debian system, KDE Plasma 6, essential system components, and the installer.  
-All additional software is installed after the first boot through the BergOS Software Selection interface.
+# BergOS
 
----
+**A customizable Linux distribution with two editions: Standard and Lite.**
 
-## System Overview
+BergOS is a Linux distribution project focused on simplicity, customization, and accessibility across different hardware generations.
 
-BergOS is built on top of **Debian Trixie**, using **XFCE** as its primary desktop environment.  
+Based on Ubuntu and its ecosystem, BergOS aims to provide a clean desktop experience, a streamlined installation process, and an optional software selection system.
 
-The system is optimized for performance and responsiveness, even on modest hardware.
+The project offers two planned editions:
 
----
+- **BergOS Standard** — a modern desktop operating system for everyday use, development, gaming, and productivity.
+- **BergOS Lite** — a lightweight edition designed for older computers and systems with limited hardware resources.
 
-## Core Stack
-
-- **Base:** Debian 13  
-- **Kernel:** Debian default
-- **Desktop Environment:** XFCE  
-- **Display Server:** Wayland (default)  
-- **Display Manager:** SDDM  
-- **Init System:** systemd  
-- **Audio:** PipeWire  
-- **Networking:** NetworkManager  
-- **Filesystem:** Btrfs  
-- **Snapshot Management:** Snapper + Timeshift  
-- **Package Manager:** APT  
-- **Universal Packages:** Flatpak  
-- **Flatpak Repository:** Flathub  
-- **Desktop Portals:** xdg-desktop-portal + xdg-desktop-portal-kde  
+Both editions share the same project identity and modular philosophy while targeting different hardware requirements.
 
 ---
 
-## First Boot Experience
+## Project Overview
 
-BergOS uses a **modular software installation model**.
+BergOS aims to make Linux easier to install, customize, and maintain.
 
-The installation ISO contains only the core operating system, XFCE, essential utilities, and the Calamares installer.
+Instead of shipping every possible application in the base image, the project follows a minimal-core approach: install the essentials first and allow users to expand the system according to their needs.
 
-During the first boot, users are presented with the **BergOS Software Selection** interface, which allows them to install optional software categories such as:
+The project is designed around three principles:
 
-- Desktop Applications  
-- Development Tools  
-- Gaming Support  
-- Cybersecurity Utilities  
-- Virtualization and Containers  
-- Multimedia Tools  
-- Networking Utilities  
-- System Administration Tools  
+- **Simplicity:** a clean desktop and a straightforward installation experience.
+- **Modularity:** optional software and tools organized into categories.
+- **Compatibility:** separate editions for different hardware capabilities.
 
-This approach keeps the ISO small while allowing BergOS to become a powerful workstation depending on user needs.
+## Editions
 
-For details on available software categories, see **APPLICATIONS.md**.
+### BergOS Standard
+
+A modern desktop edition intended for reasonably recent computers.
+
+Planned features include:
+
+- XFCE desktop environment.
+- Ubuntu LTS foundation.
+- Graphical installation with Calamares.
+- APT package management.
+- Optional Flatpak and Flathub integration.
+- Development, gaming, multimedia, and virtualization profiles.
+- Custom themes, icons, and wallpapers.
+
+[Read the Standard edition documentation](editions/standard/README.md).
+
+### BergOS Lite
+
+A lightweight edition intended for older computers and systems with limited RAM and processing power.
+
+Planned features include:
+
+- A minimal Linux base selected for compatibility and maintainability.
+- A lightweight window manager, such as IceWM.
+- X11 support where appropriate for legacy hardware.
+- A reduced set of background services.
+- Lightweight applications and optional software profiles.
+- A simplified desktop experience.
+
+The Acer Aspire 1310, with 512 MB of RAM, is one of the intended test systems.
+
+Support for this hardware will depend on processor architecture, driver compatibility, available packages, and security maintenance.
+
+[Read the Lite edition documentation](editions/lite/README.md).
+
+## Core Philosophy
+
+BergOS follows a minimal-core, modular-expansion philosophy.
+
+The base installation should contain only the components necessary to provide a functional system. Additional applications should remain optional whenever practical.
+
+The project aims to provide:
+
+- Small and maintainable software selections.
+- Clear separation between core components and optional applications.
+- Reproducible installation images.
+- Consistent branding across both editions.
+- Hardware-appropriate defaults.
+- Transparent documentation of supported features.
+
+## Technology
+
+The planned technology stack includes:
+
+| Component | Technology |
+|---|---|
+| Standard base | Ubuntu LTS |
+| Standard desktop | XFCE |
+| ISO customization | Cubic |
+| Graphical installer | Calamares, subject to integration and testing |
+| Package management | APT |
+| Additional applications | Flatpak, where appropriate |
+| Networking | NetworkManager |
+| Audio | PipeWire, where appropriate |
+| Lite desktop | IceWM or another lightweight alternative |
+| Lite display server | X11, where supported |
+
+The final configuration may change during development as compatibility and maintenance requirements are evaluated.
+
+## License
+
+The project's licensing terms will be documented in the repository's `LICENSE` file.
+
+Third-party software and assets remain subject to their respective licenses.
 
 ---
 
-## Design Philosophy
-
-BergOS follows a **minimal-core, modular-expansion** philosophy.
-
-The base ISO includes only what is necessary to provide:
-
-- a functional operating system  
-- a modern desktop environment  
-- a clean installation experience  
-
-Everything else is optional.
-
-### Benefits
-
-- Smaller installation media  
-- Faster installation  
-- Less unnecessary software  
-- User-controlled system configuration  
-- Easier maintenance  
-- Clear separation between core OS and optional software  
-- Ability to provide specialized profiles without separate ISO images  
-
----
-
-## Project Goals
-
-BergOS aims to provide a flexible Debian-based workstation suitable for a wide range of users.
-
-The project focuses on:
-
-- A modern KDE Plasma 6 desktop  
-- A stable Linux LTS kernel  
-- Wayland-first desktop architecture  
-- Btrfs-based snapshot and recovery capabilities  
-- Flatpak and Flathub integration  
-- Modular first-boot software installation  
-- Optional development tooling  
-- Optional gaming support  
-- Optional cybersecurity tooling  
-- Optional container support  
-
----
+**BergOS — One project. Two editions. More life for every computer.**
 
 ## Project Status
 
