@@ -105,7 +105,6 @@ Includes:
 - Timeshift  
 - Snapper  
 - Flatpak utilities  
-- KDE system tools  
 
 ---
 
