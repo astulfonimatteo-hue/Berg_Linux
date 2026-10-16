@@ -2,7 +2,7 @@
 
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
-BergOS is a modern, lightweight, Debian‑based operating system designed to provide a clean, reliable, and customizable KDE Plasma 6 desktop out of the box.  
+BergOS is a modern, lightweight, Debian‑based operating system designed to provide a clean, reliable, and customizable XFCE desktop out of the box.  
 It focuses on stability, simplicity, modularity, and a streamlined installation experience powered by the Calamares graphical installer.
 
 The base ISO is intentionally minimal: it includes the core Debian system, KDE Plasma 6, essential system components, and the installer.  
@@ -12,7 +12,7 @@ All additional software is installed after the first boot through the BergOS Sof
 
 ## System Overview
 
-BergOS is built on top of **Debian Bookworm**, using **KDE Plasma 6** as its primary desktop environment.  
+BergOS is built on top of **Debian Trixie**, using **KDE Plasma 6** as its primary desktop environment.  
 The default graphical session runs on **Wayland**, with **X11** available as a fallback for compatibility.
 
 The system is optimized for performance and responsiveness, even on modest hardware.
@@ -21,14 +21,12 @@ The system is optimized for performance and responsiveness, even on modest hardw
 
 ## Core Stack
 
-- **Base:** Debian Bookworm  
-- **Kernel:** Linux LTS (Debian default)  
-- **Desktop Environment:** KDE Plasma 6  
+- **Base:** Debian 13  
+- **Kernel:** Debian default
+- **Desktop Environment:** XFCE  
 - **Display Server:** Wayland (default)  
-- **Fallback:** X11 session  
 - **Display Manager:** SDDM  
 - **Init System:** systemd  
-- **Initramfs:** dracut  
 - **Audio:** PipeWire  
 - **Networking:** NetworkManager  
 - **Filesystem:** Btrfs  
@@ -44,7 +42,7 @@ The system is optimized for performance and responsiveness, even on modest hardw
 
 BergOS uses a **modular software installation model**.
 
-The installation ISO contains only the core operating system, KDE Plasma 6, essential utilities, and the Calamares installer.
+The installation ISO contains only the core operating system, XFCE, essential utilities, and the Calamares installer.
 
 During the first boot, users are presented with the **BergOS Software Selection** interface, which allows them to install optional software categories such as:
 
