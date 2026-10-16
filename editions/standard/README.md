@@ -1,115 +1,124 @@
+
 # BergOS Standard
 
-**A modern, customizable Debian-based desktop operating system.**
+**A modern Ubuntu-based desktop experience.**
 
-BergOS Standard is the main edition of BergOS, designed to provide a balanced desktop experience combining usability, performance, stability, and flexibility.
+BergOS Standard is the main edition of BergOS, designed for everyday computing, productivity, software development, and entertainment.
 
-Built on Debian GNU/Linux, it aims to offer a clean desktop environment with a minimal base installation and an optional software selection system.
+It aims to combine the familiarity of XFCE with a customizable desktop, a clean software selection, and a streamlined installation experience.
 
-The goal is to provide a reliable everyday operating system that can be expanded into a complete workstation for development, gaming, multimedia, and general productivity.
+The edition is intended for reasonably recent computers with sufficient resources for a modern Linux desktop.
 
 ---
 
 ## Features
 
-The planned features of BergOS Standard include:
+Planned features include:
 
-- Debian-based operating system.
+- Ubuntu LTS foundation.
 - XFCE desktop environment.
-- Graphical installation through Calamares.
-- Modular first-boot software selection.
-- APT package management.
-- Flatpak and Flathub integration.
-- PipeWire audio support.
-- NetworkManager for network configuration.
-- Optional Btrfs filesystem and snapshot management.
-- Optional development, gaming, and multimedia profiles.
 - Custom BergOS themes, icons, and wallpapers.
+- ISO customization using Cubic.
+- Graphical installation through Calamares, subject to integration and testing.
+- APT package management.
+- Optional Flatpak and Flathub support.
+- Networking through NetworkManager.
+- PipeWire audio support.
+- Optional development, gaming, and multimedia profiles.
+- Optional virtualization and container tools.
+- Optional system snapshot and recovery features.
 
-Features will be implemented and tested progressively during development.
+Features will be introduced and tested progressively.
 
-## System Components
+## Technology Stack
 
 | Component | Planned Technology |
 |---|---|
-| Base distribution | Debian GNU/Linux |
+| Base distribution | Ubuntu LTS |
 | Desktop environment | XFCE |
-| Display server | Wayland where supported, with X11 compatibility |
-| Display manager | SDDM |
+| ISO customization | Cubic |
+| Installer | Calamares, subject to testing |
+| Display server | Compatible session selected for the chosen XFCE version |
+| Display manager | To be determined |
 | Init system | systemd |
-| Audio | PipeWire |
 | Networking | NetworkManager |
+| Audio | PipeWire |
 | Package management | APT |
-| Additional applications | Flatpak |
-| Application repository | Flathub |
-| Installer | Calamares |
-| Filesystem | Btrfs, where appropriate |
-| Snapshot management | Snapper and/or Timeshift |
+| Additional applications | Flatpak and Flathub, optionally |
+| Filesystem | ext4 by default; other options may be evaluated |
 
-The final configuration may change according to compatibility and testing results.
+The exact Ubuntu release and package configuration will be selected according to support lifetime, compatibility, and project requirements.
 
 ## Intended Use
 
-BergOS Standard is intended for:
+BergOS Standard is designed for:
 
-- Everyday desktop use.
+- Everyday desktop computing.
 - Web browsing and office productivity.
-- Software development and programming.
+- Programming and software development.
 - Gaming and game compatibility tools.
-- Multimedia creation and playback.
+- Multimedia playback and creation.
 - Virtualization and container workloads.
-- System administration and networking.
+- Networking and system administration.
 
-Additional software will be available through optional installation profiles.
+Optional software profiles will allow users to install additional applications without requiring a separate ISO for each use case.
 
-## Installation Philosophy
+## Minimal Installation
 
-BergOS Standard follows a minimal-core approach.
+BergOS Standard follows a minimal-core philosophy.
 
-The base installation is intended to contain the essential operating system, desktop environment, system utilities, and installer.
+The base system should include the essential desktop, system utilities, networking components, and the packages required for installation and operation.
 
-Additional applications can be installed through the BergOS Software Selection interface.
+Additional applications will be provided through optional software categories whenever practical.
 
-This approach aims to reduce unnecessary preinstalled software while allowing users to configure their systems according to their needs.
+This approach aims to reduce unnecessary preinstalled software while preserving a complete desktop experience.
 
 ## Hardware Requirements
 
-Final requirements will be determined through testing.
+Final requirements will be established through testing.
 
-The intended target is modern or reasonably recent x86-64 hardware.
+The initial target is x86-64 hardware.
 
-A practical starting point for testing is:
+A preliminary development target is:
 
-- **Architecture:** x86-64.
+- **Architecture:** 64-bit x86-64.
 - **Memory:** 4 GB RAM or more recommended.
 - **Storage:** SSD recommended.
-- **Graphics:** Hardware supported by the selected Debian kernel and graphics stack.
+- **Graphics:** Supported by the selected Ubuntu base and graphics drivers.
 
-Actual requirements depend on the installed applications and desktop configuration.
+These are development targets, not verified minimum requirements.
 
-## Development Status
+## ISO Development
 
-BergOS Standard is under development.
+Cubic is the planned tool for customizing a compatible Ubuntu or Xubuntu live ISO.
 
-Planned milestones:
+The workflow will include:
 
-- [ ] Establish a reproducible ISO build.
-- [ ] Configure the base Debian system.
-- [ ] Integrate XFCE and system services.
-- [ ] Configure the Calamares installer.
-- [ ] Implement BergOS Software Selection.
-- [ ] Define optional software profiles.
-- [ ] Integrate Flatpak and Flathub.
-- [ ] Test installation, updates, and recovery.
+1. Selecting a supported source ISO.
+2. Installing or removing packages.
+3. Applying BergOS branding and configuration.
+4. Integrating and testing the installer.
+5. Generating the customized ISO.
+6. Testing boot, installation, networking, and first boot in a virtual machine.
+7. Testing on physical hardware before publication.
 
-## Documentation
+Cubic does not automatically provide a complete distribution build pipeline or guarantee that all custom installer configurations will work.
 
-- [Main Project README](../../README.md)
-- [Software Catalog](../../APPLICATIONS.md)
-- [Contributing Guidelines](../../CONTRIBUTING.md)
+## Software Profiles
+
+Planned categories include:
+
+- Desktop applications.
+- Development tools.
+- Gaming support.
+- Cybersecurity utilities.
+- Multimedia tools.
+- Networking utilities.
+- Virtualization and containers.
+- System administration.
 
 ## Philosophy
 
-BergOS Standard aims to provide a clean and flexible desktop without forcing users to install software they do not need.
+BergOS Standard aims to provide a modern, flexible desktop without forcing users to install software they do not need.
 
-**A minimal foundation. A complete workstation when you need it.**
+**A clean desktop. A customizable workstation.**
