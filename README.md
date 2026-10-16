@@ -12,8 +12,7 @@ All additional software is installed after the first boot through the BergOS Sof
 
 ## System Overview
 
-BergOS is built on top of **Debian Trixie**, using **KDE Plasma 6** as its primary desktop environment.  
-The default graphical session runs on **Wayland**, with **X11** available as a fallback for compatibility.
+BergOS is built on top of **Debian Trixie**, using **XFCE** as its primary desktop environment.  
 
 The system is optimized for performance and responsiveness, even on modest hardware.
 
