@@ -7,10 +7,6 @@ BergOS Lite is designed to make older hardware useful through a carefully config
 
 It shares the BergOS identity and modular philosophy but prioritizes compatibility, low resource consumption, and maintainability.
 
-One of its intended test systems is the Acer Aspire 1310, currently equipped with 512 MB of RAM.
-
-Compatibility with this computer has not yet been confirmed.
-
 ---
 
 ## Goals
