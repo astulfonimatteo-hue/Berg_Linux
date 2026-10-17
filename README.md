@@ -99,6 +99,16 @@ The planned technology stack includes:
 
 The final configuration may change during development as compatibility and maintenance requirements are evaluated.
 
+## Roadmap
+
+BergOS is developed through a series of planned milestones, gradually evolving from a minimal Kubuntu-based system into a fully customizable Linux distribution.
+
+Future releases will introduce custom branding, the Calamares installer, BergOS Software Selection, hardware-aware Adaptive Setup, the Lite and Server editions, and a custom desktop experience.
+
+The v0.x development cycle will focus on stability, modularity, accessibility, and giving users greater control over their systems.
+
+For the complete list of planned features and release milestones, see the [BergOS Roadmap](ROADMAP.md).
+
 ## License
 
 The project's licensing terms will be documented in the repository's `LICENSE` file.
