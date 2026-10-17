@@ -5,7 +5,7 @@
 
 BergOS Standard is the main edition of BergOS, designed for everyday computing, productivity, software development, and entertainment.
 
-It aims to combine the familiarity of XFCE with a customizable desktop, a clean software selection, and a streamlined installation experience.
+It aims to combine the familiarity of KDE Plasma with a customizable desktop, a clean software selection, and a streamlined installation experience.
 
 The edition is intended for reasonably recent computers with sufficient resources for a modern Linux desktop.
 
@@ -16,9 +16,8 @@ The edition is intended for reasonably recent computers with sufficient resource
 Planned features include:
 
 - Ubuntu LTS foundation.
-- XFCE desktop environment.
+- KDE Plasma desktop environment.
 - Custom BergOS themes, icons, and wallpapers.
-- ISO customization using Cubic.
 - Graphical installation through Calamares, subject to integration and testing.
 - APT package management.
 - Optional Flatpak and Flathub support.
@@ -35,10 +34,10 @@ Features will be introduced and tested progressively.
 | Component | Planned Technology |
 |---|---|
 | Base distribution | Ubuntu LTS |
-| Desktop environment | XFCE |
+| Desktop environment | KDE Plasma |
 | ISO customization | Cubic |
 | Installer | Calamares, subject to testing |
-| Display server | Compatible session selected for the chosen XFCE version |
+| Display server | Compatible session selected for the chosen KDE Plasma version |
 | Display manager | To be determined |
 | Init system | systemd |
 | Networking | NetworkManager |
