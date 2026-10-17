@@ -63,8 +63,6 @@ Planned features include:
 - Lightweight applications and optional software profiles.
 - A simplified desktop experience.
 
-The Acer Aspire 1310, with 512 MB of RAM, is one of the intended test systems.
-
 Support for this hardware will depend on processor architecture, driver compatibility, available packages, and security maintenance.
 
 [Read the Lite edition documentation](editions/lite/README.md).
