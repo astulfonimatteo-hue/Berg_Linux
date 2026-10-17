@@ -115,10 +115,6 @@ The project's licensing terms will be documented in the repository's `LICENSE` f
 
 Third-party software and assets remain subject to their respective licenses.
 
----
-
-**BergOS — One project. Two editions. More life for every computer.**
-
 ## Project Status
 
 BergOS is currently under active development.  
@@ -126,4 +122,9 @@ The architecture, installer, software selection system, and default configuratio
 
 Release updates will be published on the official Discord server:  
 **https://discord.gg/mTVVcZVsx**
+
+
+---
+
+**BergOS — One project. Two editions. More life for every computer.**
 
