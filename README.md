@@ -1,5 +1,3 @@
-# BergOS
-
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
 
@@ -40,7 +38,7 @@ A modern desktop edition intended for reasonably recent computers.
 
 Planned features include:
 
-- XFCE desktop environment.
+- KDE Plasma desktop environment.
 - Ubuntu LTS foundation.
 - Graphical installation with Calamares.
 - APT package management.
@@ -89,7 +87,7 @@ The planned technology stack includes:
 | Component | Technology |
 |---|---|
 | Standard base | Ubuntu LTS |
-| Standard desktop | XFCE |
+| Standard desktop | KDE Plasma |
 | ISO customization | Cubic |
 | Graphical installer | Calamares, subject to integration and testing |
 | Package management | APT |
