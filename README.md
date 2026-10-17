@@ -88,7 +88,6 @@ The planned technology stack includes:
 |---|---|
 | Standard base | Ubuntu LTS |
 | Standard desktop | KDE Plasma |
-| ISO customization | Cubic |
 | Graphical installer | Calamares, subject to integration and testing |
 | Package management | APT |
 | Additional applications | Flatpak, where appropriate |
