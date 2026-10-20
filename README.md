@@ -3,13 +3,14 @@
 
 # BergOS
 
-A customizable, modular Linux distribution designed for simplicity, performance, and accessibility across all hardware generations.
+A customizable, modular Linux distribution designed for simplicity, performance, and accessibility across all hardware generations and server environments.
 
-BergOS provides a clean desktop experience, a streamlined installation process, and an optional software selection system. The project offers three distinct editions tailored to different hardware capabilities and use cases:
+BergOS provides a clean desktop experience, a streamlined installation process, and an optional software selection system. The project offers four distinct editions tailored to different hardware capabilities and use cases:
 
 - **BergOS Standard** — A modern flagship operating system for everyday productivity, development, gaming, and multimedia.
 - **BergOS Lite** — A lightweight desktop edition engineered for resource-constrained systems and older 64-bit hardware.
 - **BergOS Retro** — A dedicated legacy edition based on Debian 32-bit (`i386`) designed to give new life to vintage and legacy computers.
+- **BergOS Server** — A minimal, headless server distribution optimized for home labs, cloud instances, container hosting, and self-hosted services.
 
 ---
 
@@ -19,23 +20,23 @@ BergOS aims to make Linux accessible, modular, and easy to maintain. Instead of 
 
 ### Core Principles
 
-- **Simplicity:** Clean desktop environments with straightforward out-of-the-box defaults.
+- **Simplicity:** Clean desktop environments and streamlined headless defaults.
 - **Modularity:** An optional post-installation system to install categorized software profiles on demand.
-- **Compatibility:** Dedicated editions to support modern 64-bit PCs, lightweight setups, and legacy 32-bit architectures.
+- **Compatibility:** Dedicated editions to support modern 64-bit PCs, lightweight setups, legacy 32-bit architectures, and server infrastructure.
 
 ---
 
 ## BergOS Editions Summary
 
-| Feature / Property | BergOS Standard | BergOS Lite | BergOS Retro |
-| :--- | :--- | :--- | :--- |
-| **Target Hardware** | Modern / Recent PCs | Low-resource 64-bit PCs | Legacy / Vintage 32-bit PCs |
-| **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) | 32-bit (`i386`) |
-| **Base System** | KDE Neon / Ubuntu LTS | Xubuntu / Ubuntu LTS | Debian 12 (Bookworm) |
-| **Desktop Environment** | KDE Plasma | XFCE | IceWM |
-| **Display Server** | Wayland / X11 | X11 | X11 |
-| **Installer** | Calamares | Calamares | Calamares |
-| **Package Manager** | APT, Flatpak | APT, Flatpak | APT |
+| Feature / Property | BergOS Standard | BergOS Lite | BergOS Retro | BergOS Server |
+| :--- | :--- | :--- | :--- | :--- |
+| **Target Use** | Modern / Recent PCs | Low-resource 64-bit PCs | Legacy / Vintage 32-bit PCs | Servers & Home Labs |
+| **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) | 32-bit (`i386`) | 64-bit (`x86_64`) |
+| **Base System** | KDE Neon / Ubuntu LTS | Xubuntu / Ubuntu LTS | Debian 12 (Bookworm) | Ubuntu LTS Server |
+| **Desktop Environment**| KDE Plasma | XFCE | LXDE / IceWM | None (Headless CLI) |
+| **Display Server** | Wayland / X11 | X11 | X11 | None |
+| **Installer** | Calamares | Calamares | Calamares / Debian | Subiquity / Calamares |
+| **Package Manager** | APT, Flatpak | APT, Flatpak | APT | APT, Docker |
 
 ---
 
@@ -51,6 +52,7 @@ During or after installation, users can select optional software profiles, inclu
 - **Gaming Profile:** Steam, Proton, GameMode, and performance overlay tools.
 - **Cybersecurity Toolkit:** Network analysis and security research utilities.
 - **Virtualization & Containers:** Tools for running VMs and isolated containers.
+- **Networking & Server Profiles:** SSH, WireGuard, OpenVPN, Nginx, Docker, and admin tools.
 - **System Administration & Multimedia:** Performance monitors, backup tools, and media production suites.
 
 ---
@@ -62,11 +64,8 @@ For detailed information, setup instructions, and architecture specifications fo
 - [Standard Edition Documentation](editions/standard/README.md)
 - [Lite Edition Documentation](editions/lite/README.md)
 - [Retro Edition Documentation](editions/retro/README.md)
+- [Server Edition Documentation](editions/server/README.md)
 - [Project Roadmap](ROADMAP.md)
-## Project Status
-
-BergOS is currently under active development.  
-The architecture, installer, software selection system, and default configuration may evolve as development continues.
 
 Release updates will be published on the official Discord server:  
 **https://discord.gg/mTVVcZVsx**
