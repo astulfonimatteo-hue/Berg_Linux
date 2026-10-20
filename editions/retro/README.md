@@ -10,7 +10,7 @@ While modern operating systems have phased out older hardware architectures, Ber
 
 - **32-Bit Architecture Support:** Native support for `i386` processors (Intel Pentium, Atom, early Core Duo, AMD Athlon XP, etc.).
 - **Debian 12 Foundation:** Unmatched rock-solid stability and long-term package support from Debian.
-- **Extremely Low Memory Footprint:** Efficient XFCE desktop configuration designed to run comfortably on sub-2GB RAM systems.
+- **Extremely Low Memory Footprint:** Efficient IceWM desktop configuration designed to run comfortably on sub-2GB RAM systems.
 - **Legacy Compatibility:** Full X11 support, tailored driver defaults, and lightweight application choices.
 - **Modern Calamares Setup:** A graphical installer making 32-bit Linux setup modern and straightforward.
 
@@ -20,7 +20,7 @@ While modern operating systems have phased out older hardware architectures, Ber
 
 - **Architecture:** 32-bit (`i386` / `i686`)
 - **Base System:** Debian 12 (Bookworm)
-- **Desktop Environment:** XFCE
+- **Desktop Environment:** IceWM
 - **Installer:** Calamares
 - **Display Manager:** LightDM
 - **Display Server:** X11
