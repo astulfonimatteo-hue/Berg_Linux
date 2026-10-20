@@ -1,30 +1,38 @@
-# Roadmap
+# BergOS Roadmap
 
 BergOS is developed incrementally, with each release introducing new features, improving reliability, and expanding the project's capabilities.
 
 The roadmap represents planned milestones and may evolve as development progresses.
 
+---
+
 ## v0.1 — Minimal Core
-- Minimal Kubuntu-based system with KDE Plasma.
+- Minimal **KDE Neon-based** system with KDE Plasma.
 - Essential desktop components and system utilities.
 - Functional live environment.
 - Initial boot and compatibility testing.
 
-Recommended usage: Run BergOS v0.1 in a virtual machine. This release is intended for development and testing, not as a production-ready operating system.
+*Recommended usage: Run BergOS v0.1 in a virtual machine. This release is intended for development and testing, not as a production-ready operating system.*
+
+---
 
 ## v0.2 — BergOS Branding
 - BergOS wallpapers, themes, icons, and color palette.
 - Initial desktop branding.
 - Consistent visual identity for the Standard edition.
 
-## v0.3 — Calamares Installer
-- Integrate the Calamares graphical installer.
-- Configure storage and partitioning options.
-- Configure user accounts and system installation.
-- Test installation in virtual machines and on physical hardware.
+---
+
+## v0.3 — BergOS Lite Release & Base Refinement
+- **Introduce BergOS Lite:** Release the first lightweight 64-bit edition based on XFCE.
+- Optimize storage and memory utilization for low-resource 64-bit PCs.
+- Configure user accounts and system defaults across Standard and Lite editions.
+- Test live environments and installation workflows on physical hardware and virtual machines.
+
+---
 
 ## v0.4 — BergOS Software Selection
--Introduce the modular software selection system.
+- Introduce the modular software selection system.
 - Desktop Applications profile.
 - Development Tools profile.
 - Gaming profile.
@@ -35,24 +43,29 @@ Recommended usage: Run BergOS v0.1 in a virtual machine. This release is intende
 - Multimedia Tools profile.
 - Integrate APT and Flatpak where appropriate.
 
-Users will be able to select optional software categories without including every application in the base ISO.
+*Users will be able to select optional software categories without including every application in the base ISO.*
+
+---
 
 ## v0.5 — BergOS Adaptive Setup
--Detect hardware during the first boot.
+- Detect hardware during the first boot.
 - Apply hardware-appropriate desktop and system defaults.
 - Adapt selected settings to available system resources.
 - Provide optional software and configuration recommendations.
 - Implement safe fallbacks for unsupported or unknown hardware.
 
-Adaptive Setup will improve the initial experience while avoiding risky automatic changes.
+*Adaptive Setup will improve the initial experience while avoiding risky automatic changes.*
 
-## v0.6 — BergOS Lite
-- Introduce the Lite edition.
-- Integrate a lightweight desktop environment.
-- Reduce unnecessary background services.
-- Optimize defaults for resource-constrained hardware.
-- Maintain consistent branding across editions.
-- Fix bugs and improve the reliability of Adaptive Setup.
+---
+
+## v0.6 — BergOS Retro Release
+- **Introduce BergOS Retro:** Release the dedicated 32-bit (`i386`) edition based on Debian 12 (Bookworm).
+- Integrate an ultra-lightweight desktop environment (LXDE / IceWM) tuned for legacy hardware and systems with **512 MB of RAM**.
+- Reduce unnecessary background services for vintage processors.
+- Maintain consistent BergOS branding and identity across all three editions (Standard, Lite, Retro).
+- Improve the reliability of Adaptive Setup on legacy components.
+
+---
 
 ## v0.7 — Custom BergOS Desktop
 - Introduce a customized KDE Plasma experience for Standard.
@@ -60,6 +73,8 @@ Adaptive Setup will improve the initial experience while avoiding risky automati
 - Integrate custom themes, icons, and visual components.
 - Refine defaults for everyday productivity.
 - Integrate the BergOS visual identity throughout the desktop.
+
+---
 
 ## v0.8 — BergOS Server
 - Introduce a dedicated Server edition.
@@ -69,12 +84,16 @@ Adaptive Setup will improve the initial experience while avoiding risky automati
 - Minimize unnecessary graphical components and services.
 - Document security and maintenance procedures.
 
+---
+
 ## v0.9 — Custom BergOS Installer
 - Develop a BergOS-branded installation experience.
 - Streamline the installation workflow.
 - Provide edition-aware installation options.
 - Integrate BergOS configuration principles.
 - Improve installation guidance and error handling.
+
+---
 
 ## v0.10 — BergOS System Profiles
 - Introduce persistent software profile management.
@@ -85,10 +104,11 @@ Adaptive Setup will improve the initial experience while avoiding risky automati
 - Integrate supported settings from Adaptive Setup.
 - Provide clear reports of configuration changes and installation results.
 
-System Profiles will help users understand, maintain, and customize their systems beyond the first boot.
+*System Profiles will help users understand, maintain, and customize their systems beyond the first boot.*
 
-This release marks the final planned milestone of the initial v0.x development cycle.
+---
 
 *Note: All roadmap items are planned features and may change based on development progress, testing results, hardware compatibility, and maintenance requirements.*
 
-BergOS — One project. Two editions. More life for every computer.
+
+BergOS — One project. Four editions. More life for every computer.
