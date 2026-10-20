@@ -32,7 +32,7 @@ BergOS aims to make Linux accessible, modular, and easy to maintain. Instead of 
 | **Target Hardware** | Modern / Recent PCs | Low-resource 64-bit PCs | Legacy / Vintage 32-bit PCs |
 | **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) | 32-bit (`i386`) |
 | **Base System** | KDE Neon / Ubuntu LTS | Xubuntu / Ubuntu LTS | Debian 12 (Bookworm) |
-| **Desktop Environment** | KDE Plasma | XFCE | XFCE |
+| **Desktop Environment** | KDE Plasma | XFCE | IceWM |
 | **Display Server** | Wayland / X11 | X11 | X11 |
 | **Installer** | Calamares | Calamares | Calamares |
 | **Package Manager** | APT, Flatpak | APT, Flatpak | APT |
