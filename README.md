@@ -61,10 +61,10 @@ During or after installation, users can select optional software profiles, inclu
 
 For detailed information, setup instructions, and architecture specifications for each edition, please refer to the respective documentation:
 
-- [Standard Edition Documentation](editions/standard/README.md)
-- [Lite Edition Documentation](editions/lite/README.md)
-- [Retro Edition Documentation](editions/retro/README.md)
-- [Server Edition Documentation](editions/server/README.md)
+- [Standard Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/tree/main)
+- [Lite Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/blob/main/README.md)
+- [Retro Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Retro-Edition)
+- [Server Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition)
 - [Project Roadmap](ROADMAP.md)
 
 Release updates will be published on the official Discord server:  
