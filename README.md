@@ -7,7 +7,7 @@ A customizable, modular Linux distribution designed for simplicity, performance,
 
 BergOS provides a clean desktop experience, a streamlined installation process, and an optional software selection system. The project offers four distinct editions tailored to different hardware capabilities and use cases:
 
-- **BergOS Standard** — A modern flagship operating system for everyday productivity, development, gaming, and multimedia.
+- [**BergOS Standard**](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/tree/main) — A modern flagship operating system for everyday productivity, development, gaming, and multimedia.
 - **BergOS Lite** — A lightweight desktop edition engineered for resource-constrained systems and older 64-bit hardware.
 - **BergOS Retro** — A dedicated legacy edition based on Debian 32-bit (`i386`) designed to give new life to vintage and legacy computers.
 - **BergOS Server** — A minimal, headless server distribution optimized for home labs, cloud instances, container hosting, and self-hosted services.
