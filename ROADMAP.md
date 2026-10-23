@@ -14,12 +14,16 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - Optimized system defaults, minimal background services, and core system utilities.
 - Functional live ISO environment with Calamares graphical installer integration.
 
-### v1.1 — BergOS Standard & Lite Alpha
-- **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on KDE Neon / Ubuntu LTS with KDE Plasma.
+### v1.1 — BergOS Lite 
 - **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Xubuntu / Ubuntu LTS with XFCE.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
-### v1.2 — Unified BergOS Branding
+### v1.2 — BergOS Standard
+- **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on KDE Neon / Ubuntu LTS with KDE Plasma.
+- Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
+
+
+### v1.3 — Unified BergOS Branding
 - Consistent visual identity across Standard, Lite, and Retro editions.
 - Official BergOS wallpapers, custom icon sets, window manager themes, and color palettes.
 - Branded desktop environments, bootloaders (ISOLINUX/GRUB), and display managers (LightDM/SDDM).
