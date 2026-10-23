@@ -15,7 +15,7 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - Functional live ISO environment with Calamares graphical installer integration.
 
 ### v1.1 — BergOS Lite 
-- **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Xubuntu / Ubuntu LTS with XFCE.
+- **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Debian 13 with XFCE.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
 ### v1.2 — BergOS Standard
