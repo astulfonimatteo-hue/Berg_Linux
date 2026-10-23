@@ -1,7 +1,7 @@
+# BergOS
+
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
-
-# BergOS
 
 A customizable, modular Linux distribution designed for simplicity, performance, and accessibility across all hardware generations and server environments.
 
