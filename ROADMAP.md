@@ -8,13 +8,13 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 
 ## Phase 1 — Foundations & Core Editions
 
-### v1.0 — BergOS Retro (32-bit Core)
+### [v1.0 — BergOS Retro (32-bit Core)](https://github.com/astulfonimatteo-hue/BergOS-Retro-Edition/releases/tag/v1.0)
 - **Official release of BergOS Retro:** Dedicated 32-bit (`i386`) edition based on Debian 12 (Bookworm).
 - Ultra-lightweight IceWM desktop environment tuned for legacy computers with 512 MB+ RAM.
 - Optimized system defaults, minimal background services, and core system utilities.
 - Functional live ISO environment with Calamares graphical installer integration.
 
-### v1.1 — BergOS Lite 
+### [v1.1 — BergOS Lite](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/releases/tag/v1.1) 
 - **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Debian 13 with XFCE.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
