@@ -67,9 +67,6 @@ For detailed information, setup instructions, and architecture specifications fo
 - [Server Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition)
 - [Project Roadmap](ROADMAP.md)
 
-Release updates will be published on the official Discord server:  
-**https://discord.gg/mTVVcZVsx**
-
 
 ---
 
