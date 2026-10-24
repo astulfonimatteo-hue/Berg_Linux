@@ -22,8 +22,13 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on KDE Neon / Ubuntu LTS with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
+### v1.3 — BergOS Server Edition
+- **Introduce BergOS Server:** Headless 64-bit (`x86_64`) server distribution based on Ubuntu LTS Server.
+- Optimized for home labs, cloud instances, Docker hosting, and self-hosted microservices.
+- Automated SSH configuration, firewall profiles, and lightweight CLI admin utilities.
+- Comprehensive security hardening and maintenance guidelines documentation.
 
-### v1.3 — Unified BergOS Branding
+### v1.4 — Unified BergOS Branding
 - Consistent visual identity across Standard, Lite, and Retro editions.
 - Official BergOS wallpapers, custom icon sets, window manager themes, and color palettes.
 - Branded desktop environments, bootloaders (ISOLINUX/GRUB), and display managers (LightDM/SDDM).
@@ -58,12 +63,6 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
 - Fine-tuned XFCE and IceWM configurations for optimized resource consumption.
 - Enhanced default desktop utilities and user-friendly system settings menus.
-
-### v3.1 — BergOS Server Edition
-- **Introduce BergOS Server:** Headless 64-bit (`x86_64`) server distribution based on Ubuntu LTS Server.
-- Optimized for home labs, cloud instances, Docker hosting, and self-hosted microservices.
-- Automated SSH configuration, firewall profiles, and lightweight CLI admin utilities.
-- Comprehensive security hardening and maintenance guidelines documentation.
 
 ### v3.2 — Custom BergOS Installer & System Profiles
 - **BergOS Custom Installer:** Edition-aware, branded installation wizard extending Calamares/Subiquity.
