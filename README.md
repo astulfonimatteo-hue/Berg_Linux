@@ -32,7 +32,7 @@ BergOS aims to make Linux accessible, modular, and easy to maintain. Instead of 
 | :--- | :--- | :--- | :--- | :--- |
 | **Target Use** | Modern / Recent PCs | Low-resource 64-bit PCs | Legacy / Vintage 32-bit PCs | Servers & Home Labs |
 | **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) | 32-bit (`i386`) | 64-bit (`x86_64`) |
-| **Base System** | Debian 13 | Debian 13 | Debian 12 (Bookworm) | Ubuntu LTS Server |
+| **Base System** | Debian 13 | Debian 13 | Debian 12 (Bookworm) | Debian 13 |
 | **Desktop Environment**| KDE Plasma | XFCE | LXDE / IceWM | None (Headless CLI) |
 | **Display Server** | Wayland / X11 | X11 | X11 | None |
 | **Installer** | Calamares | Calamares | Calamares | Subiquity / Calamares |
