@@ -22,7 +22,7 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on KDE Neon / Ubuntu LTS with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
-### v1.3 — BergOS Server Edition
+### [v1.3 — BergOS Server Edition](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition/releases/tag/v1.3)
 - **Introduce BergOS Server:** Headless 64-bit (`x86_64`) server distribution based on Ubuntu LTS Server.
 - Optimized for home labs, cloud instances, Docker hosting, and self-hosted microservices.
 - Automated SSH configuration, firewall profiles, and lightweight CLI admin utilities.
