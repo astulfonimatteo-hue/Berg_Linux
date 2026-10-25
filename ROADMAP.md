@@ -30,8 +30,7 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 
 ### v1.4 — Unified BergOS Branding
 - Consistent visual identity across Standard, Lite, Retro and Server editions.
-- Official BergOS wallpapers, custom icon sets, window manager themes, fastfetch and color palettes.
-- Branded desktop environments, bootloaders (ISOLINUX/GRUB), and display managers (LightDM/SDDM).
+- Official BergOS wallpapers, window manager themes, fastfetch and color palettes.
 
 ---
 
