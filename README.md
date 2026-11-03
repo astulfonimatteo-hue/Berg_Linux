@@ -3,14 +3,14 @@
 <img width="1179" height="1172" alt="IMG_1345" src="https://github.com/user-attachments/assets/9d437b0b-54ba-402c-ba73-ce26f4421242" />
 
 
-A customizable, modular Linux distribution designed for simplicity, performance, and accessibility across all hardware generations and server environments.
+A customizable, modular Linux distribution designed for simplicity, performance, and accessibility across modern and lightweight hardware.
 
-BergOS provides a clean desktop experience, a streamlined installation process, and an optional software selection system. The project offers four distinct editions tailored to different hardware capabilities and use cases:
+BergOS provides a clean desktop experience, a streamlined installation process, and an optional software selection system. The project offers two distinct editions tailored to different hardware capabilities and use cases:
 
 - [**BergOS Standard**](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/tree/main) — A modern flagship operating system for everyday productivity, development, gaming, and multimedia.
+
 - [**BergOS Lite**](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/blob/main/README.md) — A lightweight desktop edition engineered for resource-constrained systems and older 64-bit hardware.
-- [**BergOS Retro**](https://github.com/astulfonimatteo-hue/BergOS-Retro-Edition) — A dedicated legacy edition based on Debian 32-bit (`i386`) designed to give new life to vintage and legacy computers.
-- [**BergOS Server**](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition) — A minimal, headless server distribution optimized for home labs, cloud instances, container hosting, and self-hosted services.
+
 
 ---
 
@@ -20,23 +20,26 @@ BergOS aims to make Linux accessible, modular, and easy to maintain. Instead of 
 
 ### Core Principles
 
-- **Simplicity:** Clean desktop environments and streamlined headless defaults.
+- **Simplicity:** Clean desktop environments and streamlined system defaults.
+
 - **Modularity:** An optional post-installation system to install categorized software profiles on demand.
-- **Compatibility:** Dedicated editions to support modern 64-bit PCs, lightweight setups, legacy 32-bit architectures, and server infrastructure.
+
+- **Compatibility:** Dedicated editions to support modern 64-bit PCs and lightweight setups.
+
 
 ---
 
 ## BergOS Editions Summary
 
-| Feature / Property | BergOS Standard | BergOS Lite | BergOS Retro | BergOS Server |
-| :--- | :--- | :--- | :--- | :--- |
-| **Target Use** | Modern / Recent PCs | Low-resource 64-bit PCs | Legacy / Vintage 32-bit PCs | Servers & Home Labs |
-| **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) | 32-bit (`i386`) | 64-bit (`x86_64`) |
-| **Base System** | Debian 13 | Debian 13 | Debian 12 (Bookworm) | Debian 13 |
-| **Desktop Environment**| KDE Plasma | XFCE | LXDE / IceWM | None (Headless CLI) |
-| **Display Server** | Wayland / X11 | X11 | X11 | None |
-| **Installer** | Calamares | Calamares | Calamares | Subiquity / Calamares |
-| **Package Manager** | APT, Flatpak | APT, Flatpak | APT | APT, Docker |
+| Feature / Property | BergOS Standard | BergOS Lite |
+| :--- | :--- | :--- |
+| **Target Use** | Modern / Recent PCs | Low-resource 64-bit PCs |
+| **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) |
+| **Base System** | Arch Linux | Arch Linux |
+| **Desktop Environment**| KDE Plasma | i3 |
+| **Display Server** | Wayland / X11 | X11 |
+| **Installer** | Calamares | Calamares |
+| **Package Manager** | Pacman, Flatpak | Pacman, Flatpak |
 
 ---
 
@@ -48,12 +51,17 @@ Each edition ships with a carefully curated base system containing only essentia
 ### BergOS Software Selection
 During or after installation, users can select optional software profiles, including:
 - **Desktop Applications:** Daily productivity tools and web browsers.
+
 - **Development Tools:** Compilers, IDEs, Docker, and version control.
+
 - **Gaming Profile:** Steam, Proton, GameMode, and performance overlay tools.
+
 - **Cybersecurity Toolkit:** Network analysis and security research utilities.
+
 - **Virtualization & Containers:** Tools for running VMs and isolated containers.
-- **Networking & Server Profiles:** SSH, WireGuard, OpenVPN, Nginx, Docker, and admin tools.
+
 - **System Administration & Multimedia:** Performance monitors, backup tools, and media production suites.
+
 
 ---
 
@@ -62,10 +70,11 @@ During or after installation, users can select optional software profiles, inclu
 For detailed information, setup instructions, and architecture specifications for each edition, please refer to the respective documentation:
 
 - [Standard Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/tree/main)
+
 - [Lite Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/blob/main/README.md)
-- [Retro Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Retro-Edition)
-- [Server Edition Documentation](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition)
+
 - [Project Roadmap](ROADMAP.md)
+
 
 
 ---
