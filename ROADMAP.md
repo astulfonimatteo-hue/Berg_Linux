@@ -1,18 +1,12 @@
 # BergOS Roadmap
 
-BergOS is developed incrementally across four specialized editions: **Standard**, **Lite**, **Retro**, and **Server**. Each milestone introduces foundational core components, expands hardware compatibility, or adds modular features.
+BergOS is developed incrementally across two specialized editions: **Standard** and **Lite**. Each milestone introduces foundational core components, expands hardware compatibility, or adds modular features.
 
 *Note: All roadmap items represent planned milestones and may evolve based on community feedback, hardware compatibility, and maintenance requirements.*
 
 ---
 
 ## Phase 1 — Foundations & Core Editions
-
-### [v1.0 — BergOS Retro (32-bit Core)](https://github.com/astulfonimatteo-hue/BergOS-Retro-Edition/releases/tag/v1.0)
-- **Official release of BergOS Retro:** Dedicated 32-bit (`i386`) edition based on Debian 12 (Bookworm).
-- Ultra-lightweight IceWM desktop environment tuned for legacy computers with 512 MB+ RAM.
-- Optimized system defaults, minimal background services, and core system utilities.
-- Functional live ISO environment with Calamares graphical installer integration.
 
 ### [v1.1 — BergOS Lite](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/releases/tag/v1.1) 
 - **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Debian 13 with XFCE.
@@ -22,14 +16,8 @@ BergOS is developed incrementally across four specialized editions: **Standard**
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on Debian 13 with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
-### [v1.3 — BergOS Server Edition](https://github.com/astulfonimatteo-hue/BergOS-Server-Edition/releases/tag/v1.3)
-- **Introduce BergOS Server:** Headless 64-bit (`x86_64`) server distribution based on Ubuntu LTS Server.
-- Optimized for home labs, cloud instances, Docker hosting, and self-hosted microservices.
-- Automated SSH configuration, firewall profiles, and lightweight CLI admin utilities.
-- Comprehensive security hardening and maintenance guidelines documentation.
-
-### v1.4 — Unified BergOS Branding
-- Consistent visual identity across Standard, Lite, Retro and Server editions.
+### v1.3 — Unified BergOS Branding
+- Consistent visual identity across Standard and Lite editions.
 - Official BergOS wallpapers, window manager themes, fastfetch and color palettes.
 
 ---
