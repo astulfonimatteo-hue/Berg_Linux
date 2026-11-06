@@ -6,7 +6,6 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 
 ---
 
-## Phase 1 — Foundations & Core Editions
 
 ### [v1.1 — BergOS Lite](https://github.com/astulfonimatteo-hue/BergOS-Lite-Edition/releases/tag/v1.1) 
 - **Introduce BergOS Lite:** 64-bit (`x86_64`) lightweight desktop edition based on Debian 13 with XFCE.
@@ -16,15 +15,9 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on Debian 13 with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
-### v1.3 — Unified BergOS Branding
+### v1.4 — BergOS Modular Software Selection & Unified BergOS Branding
 - Consistent visual identity across Standard and Lite editions.
 - Official BergOS wallpapers, window manager themes, fastfetch and color palettes.
-
----
-
-## Phase 2 — Modularity & Adaptive Setup
-
-### v2.0 — BergOS Modular Software Selection
 - Introduction of the optional post-installation **Software Selection** framework.
 - Categorized application profiles:
   - **Desktop Applications:** Daily productivity suite and modern web browsers.
@@ -36,22 +29,18 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
   - **System Administration & Multimedia:** Performance monitors, backup solutions, and audio/video suites.
 - Integrated package management handling both APT repositories and Flatpak packages.
 
-### v2.1 — BergOS Adaptive Hardware Setup
+### v1.5 — BergOS Adaptive Hardware Setup
 - First-boot hardware detection engine.
 - Dynamic adjustments to desktop settings, compositor pipelines, and power management based on system resources.
 - Safe fallbacks for unsupported legacy GPU configurations or restricted hardware environments.
 - Recommended software profile suggestions tailored to detected RAM and CPU performance.
 
----
-
-## Phase 3 — Ecosystem Expansion & Custom Tooling
-
-### v3.0 — Custom Desktop Experience
+### v1.6 — Custom Desktop Experience
 - Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
 - Fine-tuned XFCE and IceWM configurations for optimized resource consumption.
 - Enhanced default desktop utilities and user-friendly system settings menus.
 
-### v3.2 — Custom BergOS Installer & System Profiles
+### v1.7 — Custom BergOS Installer & System Profiles
 - **BergOS Custom Installer:** Edition-aware, branded installation wizard extending Calamares/Subiquity.
 - **Persistent System Profiles:** Post-install configuration manager allowing users to enable, review, or modify installed software profiles and system defaults.
 - Diagnostic tools and visual reports for applied system configurations and package status.
