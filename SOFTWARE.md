@@ -123,7 +123,7 @@ Includes:
 
 Depending on the selected application, BergOS installs software from:
 
-- **APT** (native Debian packages)  
+- **Pacman** (native Arch packages)  
 - **Flatpak** (with Flathub enabled)  
 
 This ensures compatibility and flexibility across different software ecosystems.
