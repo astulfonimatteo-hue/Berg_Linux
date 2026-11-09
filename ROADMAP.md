@@ -15,7 +15,7 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on Debian 13 with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
 
-### v1.4 — BergOS Modular Software Selection & Unified BergOS Branding
+### v1.3 — BergOS Modular Software Selection & BergOS Adaptive Hardware Setup
 - Consistent visual identity across Standard and Lite editions.
 - Official BergOS wallpapers, window manager themes, fastfetch and color palettes.
 - Introduction of the optional post-installation **Software Selection** framework.
@@ -28,19 +28,17 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
   - **Networking & Server Profiles:** SSH, WireGuard, OpenVPN, Nginx, and admin tools.
   - **System Administration & Multimedia:** Performance monitors, backup solutions, and audio/video suites.
 - Integrated package management handling both APT repositories and Flatpak packages.
-
-### v1.5 — BergOS Adaptive Hardware Setup
 - First-boot hardware detection engine.
 - Dynamic adjustments to desktop settings, compositor pipelines, and power management based on system resources.
 - Safe fallbacks for unsupported legacy GPU configurations or restricted hardware environments.
 - Recommended software profile suggestions tailored to detected RAM and CPU performance.
 
-### v1.6 — Custom Desktop Experience
-- Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
-- Fine-tuned XFCE and IceWM configurations for optimized resource consumption.
-- Enhanced default desktop utilities and user-friendly system settings menus.
-
-### v1.7 — Custom BergOS Installer & System Profiles
+### v1.4 — Custom BergOS Installer & System Profiles
 - **BergOS Custom Installer:** Edition-aware, branded installation wizard extending Calamares/Subiquity.
 - **Persistent System Profiles:** Post-install configuration manager allowing users to enable, review, or modify installed software profiles and system defaults.
 - Diagnostic tools and visual reports for applied system configurations and package status.
+
+### v1.5 — Custom Desktop Experience
+- Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
+- Fine-tuned XFCE and IceWM configurations for optimized resource consumption.
+- Enhanced default desktop utilities and user-friendly system settings menus.
