@@ -32,6 +32,8 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 - Dynamic adjustments to desktop settings, compositor pipelines, and power management based on system resources.
 - Safe fallbacks for unsupported legacy GPU configurations or restricted hardware environments.
 - Recommended software profile suggestions tailored to detected RAM and CPU performance.
+- BergOS Standard
+- BergOS Lite
 
 ### v1.4 — Custom BergOS Installer & System Profiles
 - **BergOS Custom Installer:** Edition-aware, branded installation wizard extending Calamares/Subiquity.
