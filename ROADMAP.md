@@ -14,6 +14,7 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 ### [v1.2 — BergOS Standard](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/releases/tag/v1.2)
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on Debian 13 with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
+
 ### v1.3 — BergOS Lite: Modular Software Selection & Adaptive Hardware Configuration
 
 - **BergOS Lite Edition:** Lightweight desktop experience focused on efficiency, reduced resource consumption, and hardware compatibility.
