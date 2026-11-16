@@ -14,33 +14,29 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 ### [v1.2 — BergOS Standard](https://github.com/astulfonimatteo-hue/BergOS-Standard-Edition/releases/tag/v1.2)
 - **Introduce BergOS Standard:** 64-bit (`x86_64`) modern flagship edition based on Debian 13 with KDE Plasma.
 - Baseline system architecture, initial boot stability testing, and live ISO environment verification across real hardware and virtual machines.
+### v1.3 — BergOS Lite: Modular Software Selection & Adaptive Hardware Configuration
 
-### v1.3 — BergOS Modular Software Selection & BergOS Adaptive Hardware Setup
-- Consistent visual identity across Standard and Lite editions.
-- Official BergOS wallpapers, window manager themes, fastfetch and color palettes.
-- Introduction of the optional post-installation **Software Selection** framework.
-- Categorized application profiles:
-  - **Desktop Applications:** Daily productivity suite and modern web browsers.
-  - **Development Tools:** Compilers, IDEs, Docker, and version control.
-  - **Gaming Profile:** Steam, Proton, GameMode, and performance overlays.
-  - **Cybersecurity Toolkit:** Network diagnostics and auditing tools.
-  - **Virtualization & Containers:** VM managers and container engines.
-  - **Networking & Server Profiles:** SSH, WireGuard, OpenVPN, Nginx, and admin tools.
-  - **System Administration & Multimedia:** Performance monitors, backup solutions, and audio/video suites.
-- Integrated package management handling both APT repositories and Flatpak packages.
-- First-boot hardware detection engine.
-- Dynamic adjustments to desktop settings, compositor pipelines, and power management based on system resources.
-- Safe fallbacks for unsupported legacy GPU configurations or restricted hardware environments.
-- Recommended software profile suggestions tailored to detected RAM and CPU performance.
-- BergOS Standard
-- BergOS Lite
+- **BergOS Lite Edition:** Lightweight desktop experience focused on efficiency, reduced resource consumption, and hardware compatibility.
+- **Consistent Visual Identity:** Official BergOS wallpapers, window manager themes, Fastfetch configurations, and color palettes.
+- **Modular Software Selection:** Optional post-installation framework allowing users to install categorized application profiles.
+- **Integrated Package Management:** Unified package installation and management supporting APT repositories and Flatpak packages.
+- **Adaptive Hardware Detection:** First-boot hardware detection engine analyzing available system resources.
+- **Dynamic System Configuration:** Automatic adjustments to desktop settings, compositor configurations, and power management based on detected hardware.
+- **Intelligent Software Recommendations:** Suggested software profiles based on available RAM, CPU capabilities, and system resources.
+- **Hardware Compatibility & Safe Fallbacks:** Alternative configurations for unsupported legacy GPUs and restricted hardware environments.
 
-### v1.4 — Custom BergOS Installer & System Profiles
-- **BergOS Custom Installer:** Edition-aware, branded installation wizard extending Calamares/Subiquity.
-- **Persistent System Profiles:** Post-install configuration manager allowing users to enable, review, or modify installed software profiles and system defaults.
-- Diagnostic tools and visual reports for applied system configurations and package status.
+### v1.4 — BergOS Standard: Enhanced Installation & Persistent System Profiles
+
+- **BergOS Standard Edition:** Complete desktop experience with expanded software capabilities and system configuration options.
+- **Branded Calamares Installer:** Customized and BergOS-branded Calamares installation experience, featuring edition-specific configurations.
+- **Modular Software Selection:** Optional post-installation software selection framework with categorized application profiles:
+- **Integrated Package Management:** Unified APT and Flatpak package management.
+- **Persistent System Profiles:** Post-installation configuration manager allowing users to enable, review, and modify installed software profiles and system defaults.
+- **System Diagnostics & Reports:** Integrated diagnostic tools and visual reports displaying applied system configurations, enabled profiles, and package installation status.
+- **Adaptive Hardware Configuration:** Hardware detection and system configuration adjustments based on available resources, including desktop settings, compositor pipelines, and power management.
+- **Hardware Compatibility & Safe Fallbacks:** Alternative configurations for legacy GPUs and restricted hardware environments.
 
 ### v1.5 — Custom Desktop Experience
 - Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
-- Fine-tuned XFCE and IceWM configurations for optimized resource consumption.
+- Fine-tuned XFCE configurations for optimized resource consumption.
 - Enhanced default desktop utilities and user-friendly system settings menus.
