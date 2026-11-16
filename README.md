@@ -36,8 +36,8 @@ BergOS aims to make Linux accessible, modular, and easy to maintain. Instead of 
 | **Target Use** | Modern / Recent PCs | Low-resource 64-bit PCs |
 | **Architecture** | 64-bit (`x86_64`) | 64-bit (`x86_64`) |
 | **Base System** | Arch Linux | Arch Linux |
-| **Desktop Environment**| KDE Plasma | i3 |
-| **Display Server** | Wayland / X11 | X11 |
+| **Desktop Environment**| KDE Plasma | XFCE |
+| **Display Server** | Wayland | X11 |
 | **Installer** | Calamares | Calamares |
 | **Package Manager** | Pacman, Flatpak | Pacman, Flatpak |
 
