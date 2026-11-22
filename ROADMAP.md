@@ -17,25 +17,30 @@ BergOS is developed incrementally across two specialized editions: **Standard** 
 
 ### v1.3 — BergOS Lite: Modular Software Selection & Adaptive Hardware Configuration
 
-- **BergOS Lite Edition:** Lightweight desktop experience focused on efficiency, reduced resource consumption, and hardware compatibility.
-- **Consistent Visual Identity:** Official BergOS wallpapers, window manager themes, Fastfetch configurations, and color palettes.
-- **Modular Software Selection:** Optional post-installation framework allowing users to install categorized application profiles.
-- **Integrated Package Management:** Unified package installation and management supporting APT repositories and Flatpak packages.
-- **Adaptive Hardware Detection:** First-boot hardware detection engine analyzing available system resources.
-- **Dynamic System Configuration:** Automatic adjustments to desktop settings, compositor configurations, and power management based on detected hardware.
-- **Intelligent Software Recommendations:** Suggested software profiles based on available RAM, CPU capabilities, and system resources.
-- **Hardware Compatibility & Safe Fallbacks:** Alternative configurations for unsupported legacy GPUs and restricted hardware environments.
+- **BergOS Lite Edition:** Lightweight Arch Linux desktop built on XFCE (X11) and LightDM, focused on efficiency, reduced resource consumption, and hardware compatibility.
+- **Branded Calamares Installer:** BergOS-branded installation experience with UEFI/GPT partitioning, GRUB bootloader, and an automatic cleanup step that turns the live image into a regular installed system.
+- **Consistent Visual Identity:** Official BergOS logo, wallpapers, LightDM login screen, Fastfetch configuration, and color palette.
+- **Modular Software Selection:** Optional post-installation terminal interface allowing users to install categorized application profiles: Desktop Applications, Development Tools, Gaming, Cybersecurity Toolkit, Virtualization & Containers, Networking Tools, System Administration, and Multimedia Tools.
+- **Integrated Package Management:** Unified package installation supporting pacman and Flatpak (Flathub preconfigured), with optional AUR support disabled by default and no partial upgrades.
+- **Adaptive Hardware Detection:** First-boot detection engine analyzing CPU, RAM, GPU, and machine type, with a JSON report available to other tools.
+- **Dynamic System Configuration:** Reversible adjustments to desktop settings and compositor configuration based on detected hardware, with commands to repeat the detection or undo all changes.
+- **Intelligent Software Recommendations:** Suggested software profiles based on available RAM, GPU, and disk space, never installed automatically.
+- **Hardware Compatibility & Safe Fallbacks:** Alternative configurations for virtual machines, legacy GPUs, and restricted hardware environments.
+- **Multilingual Tools:** BergOS tools follow the system language (English and Italian).
+- **Release Testing:** Full installation test on virtual machine and real hardware, first-boot hardware profile verification, and published ISO size and checksums.
 
-### v1.4 — BergOS Standard: Enhanced Installation & Persistent System Profiles
+### v1.4 — BergOS Standard: Enhanced Installation & Full Desktop Experience
 
-- **BergOS Standard Edition:** Complete desktop experience with expanded software capabilities and system configuration options.
+- **BergOS Standard Edition:** Complete desktop experience built on KDE Plasma (Wayland) and SDDM, with a lean base system and optional extra software.
 - **Branded Calamares Installer:** Customized and BergOS-branded Calamares installation experience, featuring edition-specific configurations.
-- **Modular Software Selection:** Optional post-installation software selection framework with categorized application profiles:
-- **Integrated Package Management:** Unified APT and Flatpak package management.
-- **Persistent System Profiles:** Post-installation configuration manager allowing users to enable, review, and modify installed software profiles and system defaults.
-- **System Diagnostics & Reports:** Integrated diagnostic tools and visual reports displaying applied system configurations, enabled profiles, and package installation status.
-- **Adaptive Hardware Configuration:** Hardware detection and system configuration adjustments based on available resources, including desktop settings, compositor pipelines, and power management.
+- **Consistent Visual Identity:** Official BergOS logo, wallpapers selectable from Plasma settings, branded login screen, and Fastfetch configuration.
+- **Modular Software Selection:** Optional post-installation software selection framework with the same categorized application profiles.
+- **Integrated Package Management:** Unified pacman and Flatpak management with optional AUR support.
+- **Adaptive Hardware Configuration:** Hardware detection and reversible desktop adjustments based on available resources, including Plasma animation and blur settings.
 - **Hardware Compatibility & Safe Fallbacks:** Alternative configurations for legacy GPUs and restricted hardware environments.
+- **Multilingual Tools:** BergOS tools follow the system language (English and Italian).
+- **ISO Size Optimization:** Reduce the image to under 1.5 GiB by trimming firmware and fonts.
+- **Higher-Resolution Wallpapers:** Replace the current wallpapers with larger versions for high-resolution displays.
 
 ### v1.5 — Custom Desktop Experience
 - Redesigned KDE Plasma desktop layout for BergOS Standard (custom dock/panel layout, app launcher, and workflow enhancements).
